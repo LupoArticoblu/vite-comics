@@ -6,9 +6,9 @@
    // name: App è una convenzione 
    name: "App",
    //registrazione dei componenti
-   components:{
-    supereroi,
-    supercattivi
+   components: {
+    Supereroi,
+    Supercattivi
    },
    data(){
     return {
@@ -26,7 +26,9 @@
 </script>
 
 <template>
+  <Supereroi :Eroe1="Eroe1" :Eroe2="Eroe2" :Eroe3="Eroe3"/>
   
+  <Supercattivi :Cattivo1="Cattivo1" :Cattivo2="Cattivo2" :Cattivo3="Cattivo3"/>
 </template>
 
 
