@@ -1,6 +1,6 @@
 <script>
   import Villain from "./components/Villain.vue";
-  import Heroes from "./components/Heroes.vue"
+  import Heroes from "./components/Heroes.vue";
 
   export default {
    // name: App è una convenzione 
